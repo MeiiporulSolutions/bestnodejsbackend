@@ -138,3 +138,26 @@
 2024-03-19T16:19:24.564Z - info: MongoDB connected
 2024-03-19T16:21:06.775Z - info: MongoDB connected
 2024-03-19T16:39:46.154Z - info: MongoDB connected
+2024-03-20T05:03:32.242Z - info: MongoDB connected
+2024-03-20T05:04:57.913Z - info: MongoDB connected
+2024-03-20T05:12:26.361Z - info: MongoDB connected
+2024-03-20T05:17:57.957Z - info: MongoDB connected
+2024-03-20T05:18:38.404Z - info: MongoDB connected
+2024-03-20T05:47:49.347Z - info: MongoDB connected
+2024-03-20T06:01:37.492Z - error: Ward or bed does not exist
+2024-03-20T06:01:37.510Z - error: Not Found
+2024-03-20T06:04:51.746Z - info: MongoDB connected
+2024-03-20T06:05:03.228Z - info: MongoDB connected
+2024-03-20T06:05:29.795Z - error: Ward or bed does not exist
+2024-03-20T06:05:29.798Z - error: Not Found
+2024-03-20T06:14:29.155Z - info: MongoDB connected
+2024-03-20T06:24:59.256Z - info: MongoDB connected
+2024-03-20T06:27:03.909Z - info: MongoDB connected
+2024-03-20T06:33:49.885Z - info: MongoDB connected
+2024-03-20T06:33:55.042Z - info: Added beds successfully
+2024-03-20T06:34:35.214Z - info: Added beds successfully
+2024-03-20T06:56:41.877Z - info: Patient admitted successfully
+2024-03-20T07:01:59.723Z - info: MongoDB connected
+2024-03-20T07:02:10.541Z - info: MongoDB connected
+2024-03-20T07:18:14.639Z - info: MongoDB connected
+2024-03-20T07:18:45.589Z - info: MongoDB connected

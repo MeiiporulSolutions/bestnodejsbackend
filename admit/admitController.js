@@ -1,13 +1,11 @@
-
-
-
 const asyncHandler = require('express-async-handler');
 const moment = require('moment')
 const Patient = require('../admit/admitModel')
 const Bed = require('../bed/bedModel')
 
 const logger = require('../utils/logger'); // Assuming the logger is defined in a separate file
-//Generate Unique Patient Id Function for Admit Patient
+
+
 const generateRandomString = (length) => {
     const characters = 'ABCDEF1234';
     let result = '';

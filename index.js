@@ -18,12 +18,22 @@ app.use(express.json()); // Middleware to parse JSON bodies
 
 
 // Routes
-app.use('/add', bedRoutes); // Bed routes
+app.use('/', bedRoutes); // Bed routes
 app.use('/', admitRoutes); // Admit routes
 app.use('/tp', transferRoutes); //  routes
 app.use('/',dischargeRoutes);
 app.use('/',waitingRoutes);
 app.use('/',dashRoutes);
+
+
+// Swagger documentation setup
+const swaggerUi = require('swagger-ui-express');
+const swaggerJsdoc = require('swagger-jsdoc');
+const swaggerOptions = require('./swagger/swaggerOptions');
+
+// Swagger setup
+const swaggerSpec = swaggerJsdoc(swaggerOptions);
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
 // Error handling middleware
 app.use(errorHandler);
