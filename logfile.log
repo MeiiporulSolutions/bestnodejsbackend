@@ -202,3 +202,7 @@
 2024-03-20T11:14:35.541Z - info: MongoDB connected
 >>>>>>> b7a0cec1f4a3dd73510742c40aaed281a35f5105
 2024-03-20T12:06:19.457Z - info: MongoDB connected
+2024-03-20T12:11:20.141Z - info: MongoDB connected
+2024-03-20T12:13:01.037Z - info: MongoDB connected
+2024-03-20T12:16:48.985Z - info: MongoDB connected
+2024-03-20T12:18:37.226Z - error: secretOrPrivateKey must have a value

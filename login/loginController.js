@@ -1,5 +1,5 @@
 const asyncHandler = require('express-async-handler');
-const User = require('../login/loginModel') //replace signup model name
+const Regis = require('../signup/signupModel') //replace signup model name
 const bcrypt = require('bcrypt')
 const jwt = require('jsonwebtoken')
 const logger = require('../utils/logger');
@@ -12,7 +12,7 @@ const Login = asyncHandler(async(req,res)=>{
         throw new Error("All Fields Mandatory")
     }
 
-    const user = await User.findOne({email})
+    const user = await Regis.findOne({email})
 
     if(user && (await bcrypt.compare(password,user.password)))
     {
