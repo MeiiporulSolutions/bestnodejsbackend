@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const { dischargePatient  } = require('./dischargeController');
+<<<<<<< HEAD
 
 /**
  * @swagger
@@ -98,7 +99,10 @@ const { dischargePatient  } = require('./dischargeController');
  *                   type: string
  *                   example: Error discharging patient and updating bed record.
  */
+=======
+const { dischargePatientValidationRules } = require('./dischargeValidator')
+>>>>>>> 06529959ac0cb64d8d1b2b18eaa64e6f80bfb58b
 
 //discharge:
-router.post('/distaa',dischargePatient);
+router.post('/distaa',dischargePatientValidationRules(),dischargePatient);
 module.exports=router;

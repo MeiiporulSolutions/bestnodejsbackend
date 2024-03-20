@@ -1,5 +1,6 @@
 const express = require('express');
 const router = express.Router();
+<<<<<<< HEAD
 const { admitPatient, patientGets  } = require('./admitController');
 
 /**
@@ -146,8 +147,15 @@ const { admitPatient, patientGets  } = require('./admitController');
 
 // POST endpoint to add beds
 router.post('/admitpt', admitPatient);
+=======
+const { admitPatient, patientGets } = require('./admitController');
+const admitPatientValidationRules = require('./admitValidator'); // Import default export
+>>>>>>> 06529959ac0cb64d8d1b2b18eaa64e6f80bfb58b
 
-// // GET endpoint to get all beds
- router.get('/patientGet', patientGets );
+// POST endpoint to admit patients with validation
+router.post('/admitpt', admitPatientValidationRules(), admitPatient);
+
+// GET endpoint to get all admitted patients
+router.get('/patientGet', patientGets);
 
 module.exports = router;
