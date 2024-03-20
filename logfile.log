@@ -170,3 +170,27 @@
 2024-03-20T07:25:50.429Z - info: MongoDB connected
 >>>>>>> 06529959ac0cb64d8d1b2b18eaa64e6f80bfb58b
 2024-03-20T08:30:31.923Z - info: MongoDB connected
+2024-03-20T08:32:52.302Z - info: MongoDB connected
+2024-03-20T11:39:39.890Z - info: MongoDB connected
+2024-03-20T11:45:07.099Z - info: MongoDB connected
+2024-03-20T11:45:24.311Z - error: logger is not defined
+2024-03-20T11:46:35.528Z - info: MongoDB connected
+2024-03-20T11:46:41.692Z - error: error is not defined
+2024-03-20T11:47:24.808Z - info: MongoDB connected
+2024-03-20T11:49:05.001Z - error: User details not valid
+2024-03-20T11:49:05.005Z - error: email or password is not valid
+2024-03-20T11:49:52.539Z - error: All fields Mandatory
+2024-03-20T11:49:52.548Z - error: All Fields Mandatory
+2024-03-20T11:50:22.708Z - info: MongoDB connected
+2024-03-20T11:50:27.739Z - error: All Fields Mandatory
+2024-03-20T11:53:12.137Z - info: MongoDB connected
+2024-03-20T11:53:23.182Z - error: All fields mandatory
+2024-03-20T11:53:23.195Z - error: next is not defined
+2024-03-20T11:53:51.871Z - info: MongoDB connected
+2024-03-20T11:54:14.848Z - error: All fields mandatory
+2024-03-20T11:54:14.873Z - error: Not Found
+2024-03-20T11:55:24.173Z - info: MongoDB connected
+2024-03-20T11:55:26.337Z - error: All fields mandatory
+2024-03-20T11:55:26.343Z - error: Not Found
+2024-03-20T11:57:23.442Z - info: MongoDB connected
+2024-03-20T11:57:44.570Z - info: MongoDB connected

@@ -8,6 +8,7 @@ const transferRoutes=require('./transfer/transferRoutes');
 const dischargeRoutes=require('./discharge/dischargeRoutes');
 const waitingRoutes=require('./waiting/waitingRoutes')
 const dashRoutes=require('./dashboard/dashroutes')
+const loginRoutes = require('./login/loginRoutes')
 require('dotenv').config(); // Load environment variables
 
 // Connect to the database
@@ -24,6 +25,7 @@ app.use('/tp', transferRoutes); //  routes
 app.use('/',dischargeRoutes);
 app.use('/',waitingRoutes);
 app.use('/',dashRoutes);
+app.use('/',loginRoutes)
 
 
 // Swagger documentation setup

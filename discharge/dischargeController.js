@@ -1,6 +1,3 @@
-
-
-
 const asyncHandler = require('express-async-handler');
 const moment = require('moment')
 const Discharged = require('../discharge/dischargeModel')

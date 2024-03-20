@@ -17,6 +17,11 @@ const errorHandler = (err, req, res, next) => {
         case 409:
             message = 'Conflict';
             break;
+
+        case 403:
+            message ="unauthorized"
+            break; 
+               
         default:
             message = err.message || 'Internal Server Error';
             break;
