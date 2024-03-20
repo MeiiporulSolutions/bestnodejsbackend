@@ -170,6 +170,7 @@
 2024-03-20T07:25:50.429Z - info: MongoDB connected
 >>>>>>> 06529959ac0cb64d8d1b2b18eaa64e6f80bfb58b
 2024-03-20T08:30:31.923Z - info: MongoDB connected
+<<<<<<< HEAD
 2024-03-20T08:32:52.302Z - info: MongoDB connected
 2024-03-20T11:39:39.890Z - info: MongoDB connected
 2024-03-20T11:45:07.099Z - info: MongoDB connected
@@ -196,3 +197,8 @@
 2024-03-20T11:57:44.570Z - info: MongoDB connected
 2024-03-20T11:58:58.893Z - info: MongoDB connected
 2024-03-20T11:58:59.429Z - error: All Fields Mandatory
+=======
+2024-03-20T08:38:53.255Z - info: MongoDB connected
+2024-03-20T11:14:35.541Z - info: MongoDB connected
+>>>>>>> b7a0cec1f4a3dd73510742c40aaed281a35f5105
+2024-03-20T12:06:19.457Z - info: MongoDB connected
