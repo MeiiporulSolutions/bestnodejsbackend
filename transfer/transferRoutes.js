@@ -1,7 +1,6 @@
 const express = require('express');
 const router = express.Router();
 const { transferPatient,transferGet } = require('./transferController');
-<<<<<<< HEAD
 
 /**
  * @swagger
@@ -94,9 +93,7 @@ const { transferPatient,transferGet } = require('./transferController');
  */
 
 
-=======
 const { transferPatientValidationRules } = require('./transferValidator');
->>>>>>> 06529959ac0cb64d8d1b2b18eaa64e6f80bfb58b
 //transfer router:
 router.post('/tpsss', transferPatientValidationRules(),transferPatient);
 //transfer Get:
