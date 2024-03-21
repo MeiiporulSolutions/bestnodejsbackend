@@ -131,7 +131,7 @@ const admitPatient = asyncHandler(async (req, res, next) => {
 });
 
 //patient get:
-const patientGets = asyncHandler(async (req, res, next) => {
+const patientGets = asyncHandler(async (req, res) => {
   const PatientBeds = await Patient.find();
   if (PatientBeds.length > 0) {
       res.json(PatientBeds);

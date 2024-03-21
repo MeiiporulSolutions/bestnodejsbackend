@@ -1,5 +1,4 @@
 const asyncHandler = require('express-async-handler');
-const moment = require('moment')
 const Discharged = require('../discharge/dischargeModel')
 const Patient = require('../admit/admitModel');
 const {validationResult} = require('express-validator')

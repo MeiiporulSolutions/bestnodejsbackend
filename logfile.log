@@ -226,3 +226,12 @@
 2024-03-21T09:25:18.105Z - info: New entry created in waiting list
 2024-03-21T09:32:41.036Z - error: secretOrPrivateKey must have a value
 2024-03-21T09:34:35.401Z - info: MongoDB connected
+2024-03-21T09:35:23.511Z - info: MongoDB connected
+2024-03-21T09:57:50.304Z - info: MongoDB connected
+2024-03-21T09:57:55.352Z - error: Transfer.f is not a function
+2024-03-21T09:58:26.728Z - info: MongoDB connected
+2024-03-21T10:00:11.692Z - info: MongoDB connected
+2024-03-21T10:01:53.821Z - info: MongoDB connected
+2024-03-21T10:03:53.229Z - error: Bad Request
+2024-03-21T10:04:48.746Z - info: MongoDB connected
+2024-03-21T10:07:19.835Z - info: Patient admitted successfully

@@ -1,5 +1,4 @@
 const asyncHandler = require('express-async-handler');
-const moment = require('moment');
 const Transfer = require('../transfer/transferModel');
 const Bed = require('../bed/bedModel');
 const logger = require('../utils/logger');
