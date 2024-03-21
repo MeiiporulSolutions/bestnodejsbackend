@@ -1,6 +1,7 @@
 const asyncHandler = require('express-async-handler');
 const Waiting = require('../waiting/waitingModel');
 const Patient = require('../admit/admitModel');
+const Bed = require('../bed/bedModel');
 const logger = require('../utils/logger');
 
 const generateRandomString = (length) => {

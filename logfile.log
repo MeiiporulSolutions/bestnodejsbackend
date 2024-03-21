@@ -206,3 +206,23 @@
 2024-03-20T12:13:01.037Z - info: MongoDB connected
 2024-03-20T12:16:48.985Z - info: MongoDB connected
 2024-03-20T12:18:37.226Z - error: secretOrPrivateKey must have a value
+2024-03-21T08:50:06.720Z - info: MongoDB connected
+2024-03-21T08:50:11.399Z - error: Bad Request
+2024-03-21T08:51:35.468Z - error: Bad Request
+2024-03-21T08:52:38.095Z - error: Bad Request
+2024-03-21T08:52:45.800Z - error: Bad Request
+2024-03-21T08:53:59.618Z - info: New entry created in waiting list
+2024-03-21T08:56:13.190Z - error: Bad Request
+2024-03-21T08:57:08.693Z - info: MongoDB connected
+2024-03-21T09:01:45.597Z - error: Bad Request
+2024-03-21T09:06:48.041Z - error: Bed is not defined
+2024-03-21T09:11:30.446Z - info: MongoDB connected
+2024-03-21T09:13:24.455Z - info: MongoDB connected
+2024-03-21T09:18:12.729Z - info: MongoDB connected
+2024-03-21T09:20:35.301Z - info: MongoDB connected
+2024-03-21T09:22:03.616Z - info: MongoDB connected
+2024-03-21T09:23:37.837Z - info: MongoDB connected
+2024-03-21T09:24:25.468Z - info: MongoDB connected
+2024-03-21T09:25:18.105Z - info: New entry created in waiting list
+2024-03-21T09:32:41.036Z - error: secretOrPrivateKey must have a value
+2024-03-21T09:34:35.401Z - info: MongoDB connected
